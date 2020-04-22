@@ -2,7 +2,7 @@
     <div>
         <h1>COVID- 19 TRACKER</h1>
         <div class="mainContainer">
-            <img src="../assets/virus.jpg" alt="">
+            <img src="./../assets/virus.jpg" alt="">
             <div class="detailPage">
                 <div>Today's New Confirmed Cases: {{NewConfirmedDetail}}</div>
                 <div>Today's Total Confirmed Cases: {{TotalConfirmedDetail}}</div>
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div v-show="showLoader" class="loader">
-          <img class="imageLoader" src="../assets/loader.gif" alt="">
+          <img class="imageLoader" src="./../assets/loader.gif" alt="">
         </div>
     </div>
 </template>
