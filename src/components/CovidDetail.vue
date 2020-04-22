@@ -2,7 +2,7 @@
     <div>
         <h1>COVID- 19 TRACKER</h1>
         <div class="mainContainer">
-            <img src="../assets/coronavirus.png" alt="">
+            <img src="../assets/virus.jpg" alt="">
             <div class="detailPage">
                 <div>Today's New Confirmed Cases: {{NewConfirmedDetail}}</div>
                 <div>Today's Total Confirmed Cases: {{TotalConfirmedDetail}}</div>
